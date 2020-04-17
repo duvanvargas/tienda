@@ -13,15 +13,15 @@ class Home extends Component {
   render() {
     return (
       <div>
-          <Header/>
+          {/* <Header/> */}
           <Navbar/>
-          <Banner/>
+          {/* <Banner/> */}
           <Content/>
-          <FullWidthSection/>
+          {/* <FullWidthSection/>
           <Container/>
           <Blog/>
           <FlipBanner/>
-          <Footer/>
+          <Footer/> */}
       </div>
     );
   }

@@ -1,5 +1,6 @@
 import React from 'react';
-import LOGO from '../images/logo.png'
+import imageLogo from '../images/logo.png'
+
 import {Link} from 'react-router-dom';
 
 
@@ -9,7 +10,7 @@ export default function Navbar(){
 		<div class="container">
 			<div class="left-side">
 				<div id="logo">
-					<a href="index.html"><img src={LOGO} alt=""/></a>
+					<a href="/"><img src={imageLogo} alt=""/></a>
 				</div>
 				<div class="mmenu-trigger">
 					<button class="hamburger hamburger--collapse" type="button">
@@ -23,9 +24,9 @@ export default function Navbar(){
 					<ul id="responsive">
 
 						<li><Link to = "/">Inicio</Link></li>
-						<li><Link to = "/properties">Propiedades</Link></li>
-						<li><Link to = "we">Nosotros</Link></li>
-						<li><Link to = "/contact">Contacto</Link></li>
+						<li><Link to = "/properties">Productos</Link></li>
+						{/* <li><Link to = "we">Nosotros</Link></li>
+						<li><Link to = "/contact">Contacto</Link></li> */}
 
 					</ul>
 				</nav>
@@ -35,7 +36,7 @@ export default function Navbar(){
 
 			<div class="right-side">
 				<div class="header-widget">
-					<a href="#" class="button border">Publica tu propiedad</a>
+					<a href="#" class="button border">Publica tu Producto</a>
 				</div>
 			</div>
 

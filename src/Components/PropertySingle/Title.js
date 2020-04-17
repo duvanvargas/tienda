@@ -9,17 +9,11 @@ export default function Title (props) {
 
 				<a href="listings-list-with-sidebar.html" class="back-to-listings"></a>
 				<div class="property-title">
-					<h2>Departmento Palmas <span class="property-badge">Venta</span></h2>
-					<span>
-						<a href="#location" class="listing-address">
-							<i class="fa fa-map-marker"></i>
-							Palmas, Lomas de Chapultepec, Miguel Hidalgo, CDMX.
-						</a>
-					</span>
+					<h2>Pantalón Caballero</h2>
 				</div>
 
 				<div class="property-pricing">
-					<div class="property-price">$420,000 USD</div>
+					<div class="property-price">$100.000 COP</div>
 				</div>
 
 

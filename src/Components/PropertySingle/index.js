@@ -10,12 +10,12 @@ class PropertySingle extends Component {
   render() {
     return (
       <div>
-          <Header/>
+          {/* <Header/> */}
           <Navbar/>
           <Title/>
           <Slider/>
           <Container/>
-          <Footer/>
+          {/* <Footer/> */}
       </div>
     );
   }

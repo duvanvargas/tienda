@@ -9,11 +9,10 @@ class Properties extends Component {
   render() {
     return (
       <div>
-          <Header/>
+          {/* <Header/> */}
           <Navbar/>
           <Search/>
-          <Container/>
-          <Footer/>
+          {/* <Footer/> */}
       </div>
     );
   }

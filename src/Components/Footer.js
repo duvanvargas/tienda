@@ -17,7 +17,7 @@ export default function Footer(){
 				<h4>Links</h4>
 				<ul class="footer-links">
 					<li><a href="#">Inicio</a></li>
-					<li><a href="#">Propiedades</a></li>
+					<li><a href="#">Productos</a></li>
 					<li><a href="#">Nosotros</a></li>
 					<li><a href="#">Contacto</a></li>
 				</ul>
