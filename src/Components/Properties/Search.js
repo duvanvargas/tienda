@@ -9,7 +9,7 @@ export default function Search(props) {
 					<div class="col-md-3">
 
 						{/* <!-- Title --> */}
-						<h3 class="search-title">Buscar</h3>
+						<h3 class="search-title">Buscar </h3>
 
 						{/* <!-- Form --> */}
 						<div class="main-search-box no-shadow">
